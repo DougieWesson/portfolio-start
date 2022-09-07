@@ -42,7 +42,7 @@ h1 {
 nav {
 
   width: 150px;
-  margin: 12px;
+  margin: 15px;
   background-color: rgb(165, 241, 233);
   opacity: 0.9;
   box-shadow: 10px 10px rgb(225, 255, 238); 
@@ -78,7 +78,7 @@ button:hover {
 main {
   height: fit-content;
   width: 75%;
-  margin: 12px;
+  margin: 15px;
   background-color: rgb(165, 241, 233);
   opacity: 0.9;
   box-shadow: 10px 10px rgb(225, 255, 238); 
