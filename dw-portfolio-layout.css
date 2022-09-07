@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(127, 188, 210);
+}
+
+.header {
+  background-color: rgb(165, 241, 233);
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: 65px;
+  box-shadow: 10px 10px 5px rgb(225, 255, 238); 
+  /* border-color: rgb(225, 255, 238);
+  border-style: outset;
+  border-top-width: 0px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 0px;
+  border-radius: 25px; */
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#focus {
+  width: auto;
+  height: max-content;
+  border-width: 5px;
+  border-style: double;
+  border-color: rgb(255, 238, 175);
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+ 
+}
+
+nav {
+
+  width: 150px;
+  margin: 12px;
+  background-color: rgb(165, 241, 233);
+  opacity: 0.9;
+  box-shadow: 10px 10px rgb(225, 255, 238); 
+  /* border-color: rgb(225, 255, 238);
+  border-style: outset;
+  border-top-width: 0px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 0px;
+  border-radius: 20px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(83, 221, 187, 0.621);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+button:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+main {
+  height: fit-content;
+  width: 75%;
+  margin: 12px;
+  background-color: rgb(165, 241, 233);
+  opacity: 0.9;
+  box-shadow: 10px 10px rgb(225, 255, 238); 
+  /* border-color: rgb(225, 255, 238);
+  border-style: outset;
+  border-top-width: 0px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 0px;
+  border-radius: 20px; */
+  text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.60);
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  body {
+    background-color: rgb(127, 188, 210);
+  }
+
+  #focus {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    height: max-content;
+  }
+
+  nav {
+    width: 95%;
+    height: 60px;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  main {
+    width: 95%;
+    height: fit-content;
+    margin: 10px;
+  }
+}
