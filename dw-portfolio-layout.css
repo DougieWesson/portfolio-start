@@ -19,11 +19,16 @@ body {
   border-radius: 25px; */
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url(./Raleway/Raleway-VariableFont_wght.ttf);
+}
+
 h1 {
   text-align: center;
   padding: 10px;
+  font-family: Raleway;
   font-size: 35px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #focus {
@@ -54,6 +59,8 @@ nav {
   border-bottom-width: 10px;
   border-left-width: 0px;
   border-radius: 20px; */
+  font-family: Raleway;
+  src: url(./Raleway/Raleway-VariableFont_wght.ttf);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -67,8 +74,8 @@ button {
     background-color: rgba(83, 221, 187, 0.621);
     border-radius: 5px;
     font-size: 15px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: Raleway;
+    src: url(./Raleway/Raleway-VariableFont_wght.ttf);
 }
 
 button:hover {
@@ -91,12 +98,14 @@ main {
   border-left-width: 0px;
   border-radius: 20px; */
   text-align: center;
+  font-family: Raleway;
+  src: url(./Raleway/Raleway-VariableFont_wght.ttf);
 }
 
 p {
     font-size: 20px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    padding: 5px;
+    font-family: Raleway;
+    src: url(./Raleway/Raleway-VariableFont_wght.ttf);    padding: 5px;
 }
 
 footer {
@@ -105,6 +114,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: Raleway;
+    src: url(./Raleway/Raleway-VariableFont_wght.ttf);
 }
 
 
