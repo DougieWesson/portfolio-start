@@ -3,6 +3,14 @@ body {
   background-color: rgb(127, 188, 210);
 }
 
+:root {
+  --color1: rgb(127, 188, 210);
+  --color2: rgb(165, 241, 233);
+  --color3: rgb(225, 255, 238);
+  --color4: rgb(255, 238, 175);
+
+}
+
 #top-box {
   display: flex;
   flex-direction: row;
@@ -10,18 +18,18 @@ body {
   align-items:center;
   margin: 10px;
   padding: 10px;
-  border-color: red;
-  border-style: dotted;
+  /* border-color: red;
+  border-style: dotted; */
 
 }
 
 .header {
-  background-color: rgb(165, 241, 233);
+  background-color: var(--color1);
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
   height: fit-content;
-  box-shadow: 10px 10px 5px rgb(225, 255, 238); 
+  box-shadow: 10px 10px 5px var(--color2); 
   border-radius: 20px;
   /* border-color: rgb(225, 255, 238);
   border-style: outset;
@@ -35,7 +43,7 @@ body {
 img.logo {
   height: 127px;
   border-radius: 15px;
-  border-color: rgb(127, 188, 210);
+  border-color: var(--color1);
   border-style: solid;
   margin: 20px;
 }
@@ -56,9 +64,9 @@ h1 {
 #focus {
   width: auto;
   height: max-content;
-  border-width: 5px;
+  /* border-width: 5px;
   border-style: double;
-  border-color: rgb(255, 238, 175);
+  border-color: var(--color4); */
   margin: 10px;
   display: flex;
   flex-direction: row;
@@ -71,9 +79,9 @@ nav {
 
   width: 150px;
   margin: 15px;
-  background-color: rgb(165, 241, 233);
+  background-color: var(--color1);
   opacity: 0.9;
-  box-shadow: 10px 10px rgb(225, 255, 238); 
+  box-shadow: 10px 10px var(--color2); 
   border-radius: 20px;
   /* border-color: rgb(225, 255, 238);
   border-style: outset;
@@ -94,7 +102,7 @@ nav {
 button {
     width: fit-content;
     height: fit-content;
-    background-color: rgba(83, 221, 187, 0.621);
+    background-color: var(--color3);
     border-radius: 5px;
     font-size: 15px;
     font-family: Raleway;
@@ -110,9 +118,9 @@ main {
   height: fit-content;
   width: 75%;
   margin: 15px;
-  background-color: rgb(165, 241, 233);
+  background-color: var(--color1);
   opacity: 0.9;
-  box-shadow: 10px 10px rgb(225, 255, 238); 
+  box-shadow: 10px 10px var(--color2); 
   border-radius: 20px;
   /* border-color: rgb(225, 255, 238);
   border-style: outset;
@@ -136,7 +144,7 @@ p {
   border-radius: 100%;
   border-width: 3px;
   border-style: solid;
-  border-color: rgb(127, 188, 210);
+  border-color: var(--color3);
 }
 
 footer {
@@ -152,10 +160,6 @@ footer {
 
 
 @media screen and (max-width: 800px) {
-
-  body {
-    background-color: rgb(127, 188, 210);
-  }
 
   #focus {
     flex-direction: column;
