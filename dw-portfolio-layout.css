@@ -145,6 +145,7 @@ p {
   border-width: 3px;
   border-style: solid;
   border-color: var(--color3);
+  width: 80%;
 }
 
 footer {
