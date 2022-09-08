@@ -3,6 +3,7 @@ body {
   background-color: rgb(127, 188, 210);
 }
 
+/* Colour Palette */
 :root {
   --color1: rgb(127, 188, 210);
   --color2: rgb(165, 241, 233);
@@ -11,6 +12,7 @@ body {
 
 }
 
+/* Top of page section */
 #top-box {
   display: flex;
   flex-direction: row;
@@ -40,6 +42,7 @@ body {
   border-radius: 25px; */
 }
 
+/* Personal Logo standards */
 img.logo {
   height: 127px;
   border-radius: 15px;
@@ -61,6 +64,7 @@ h1 {
   font-size: 35px;
 }
 
+/* Main page centre section container */
 #focus {
   width: auto;
   height: max-content;
@@ -76,8 +80,8 @@ h1 {
 }
 
 nav {
-
   width: 150px;
+  height: 400px;
   margin: 15px;
   background-color: var(--color1);
   opacity: 0.9;
@@ -160,7 +164,7 @@ footer {
     src: url(./Raleway/Raleway-VariableFont_wght.ttf);
 }
 
-
+/* When screen is mobile sized */
 @media screen and (max-width: 800px) {
 
   #focus {
@@ -170,9 +174,10 @@ footer {
     height: max-content;
   }
 
+/* Flips nav bar into a row above main */
   nav {
     width: 95%;
-    height: 60px;
+    height: 70px;
     margin: 10px;
     flex-direction: row;
     justify-content: space-around;
