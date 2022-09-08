@@ -146,6 +146,7 @@ p {
   border-style: solid;
   border-color: var(--color3);
   width: 80%;
+  scale: 1;
 }
 
 footer {
