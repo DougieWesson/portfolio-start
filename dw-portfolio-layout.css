@@ -1,13 +1,14 @@
 body {
-  background-image: url(./images/pattern_new-16_2_3_0-0_0_1__c7fff7_7fd1dc.png);
+  background-image: url(./images/pexels-daniel-absi-952670.jpg);
+  background-size:contain;
   background-color: rgb(127, 188, 210);
 }
 
 /* Colour Palette */
 :root {
-  --color1: rgb(127, 188, 210);
-  --color2: rgb(165, 241, 233);
-  --color3: rgb(225, 255, 238);
+  --color1: rgb(165, 201, 202);
+  --color2: rgb(57, 91, 100);
+  --color3: rgb(231, 246, 242);
   --color4: rgb(255, 238, 175);
 
 }
