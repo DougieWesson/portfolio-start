@@ -85,7 +85,7 @@ nav {
   margin: 15px;
   background-color: var(--color1);
   opacity: 0.9;
-  box-shadow: 10px 10px var(--color2); 
+  box-shadow: 10px 10px 5px var(--color2); 
   border-radius: 20px;
   /* border-color: rgb(225, 255, 238);
   border-style: outset;
@@ -124,7 +124,7 @@ main {
   margin: 15px;
   background-color: var(--color1);
   opacity: 0.9;
-  box-shadow: 10px 10px var(--color2); 
+  box-shadow: 10px 10px 5px var(--color2); 
   border-radius: 20px;
   /* border-color: rgb(225, 255, 238);
   border-style: outset;
