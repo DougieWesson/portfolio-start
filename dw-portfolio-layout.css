@@ -142,7 +142,8 @@ main {
 p {
     font-size: 25px;
     font-family: Raleway;
-    src: url(./Raleway/Raleway-VariableFont_wght.ttf);    padding: 10px;
+    src: url(./Raleway/Raleway-VariableFont_wght.ttf);
+    padding: 10px;
 }
 
 .headshot {
