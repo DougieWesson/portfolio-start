@@ -79,7 +79,7 @@ h1 {
   align-items: stretch;
  
 }
-
+/* Navigation bar to the different pages */
 nav {
   width: 150px;
   height: 400px;
@@ -103,7 +103,7 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
-
+/* General button styling */
 button {
     width: fit-content;
     height: 45px;
@@ -113,7 +113,7 @@ button {
     font-family: Raleway;
     src: url(./Raleway/Raleway-VariableFont_wght.ttf);
 }
-
+/* Style for hovering over a button */
 button:hover {
     cursor: pointer;
     scale: 1.1;
@@ -153,7 +153,7 @@ p {
   width: 80%;
   scale: 1;
 }
-
+/* Footer style for the bottom of the page */
 footer {
     background-color: rgba(0, 0, 0, 0.60);
     border-radius: 10px;
@@ -168,7 +168,7 @@ footer {
     font-family: Raleway;
     src: url(./Raleway/Raleway-VariableFont_wght.ttf);
 }
-
+/* Div for holding the icons that link to external social media sites */
 #linkicons {
   width: auto;
   display: flex;
