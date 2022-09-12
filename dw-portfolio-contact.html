@@ -46,15 +46,35 @@
         </nav>
 
         <main>
-            <form action="mailto:douglaswesson@hotmail.co.uk" method="post">
+            <div>
+            <form action="mailto:douglaswesson@hotmail.co.uk" method="post" enctype="text/plain">
                 <label for="firstName">First name:</label><br>
-                <input type="text" id="firstName" name="firstName"><br>
+                <input type="text" id="firstName" name="Name" placeholder="Your Name"><br>
                 <label for="surname">Surname:</label><br>
-                <input type="text" id="surname" name="surname"><br>
+                <input type="text" id="surname" name="Surname" placeholder="Your Last Name"><br>
                 <label for="message">Your Message:</label><br>
-                <input type="text" id="message" name="message"><br>
-                <input type="submit">
+                <textarea id="message" name="message" placeholder="Write Something" style="height: 150px;"></textarea><br>
+                <input type="submit"> <input type="reset">
             </form>
+            </div>
+            <div id="linkicons">
+                <div>
+                    <a href="https://twitter.com/DouglasWesson">
+                        <img src="./images/twitter-icon.png" alt="this is a twitter link" class="icon">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/DougieWesson">
+                        <img src="./images/github-icon.png" alt="this is a github link" class="icon">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/Dougie.Wesson">
+                        <img src="./images/facebook-icon.png" alt="this is a facebook link" class="icon">
+                    </a>
+                </div>
+
+            </div>
             <br>
             <br>
 
