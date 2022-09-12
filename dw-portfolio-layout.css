@@ -158,7 +158,7 @@ p {
 footer {
     background-color: rgba(0, 0, 0, 0.60);
     border-radius: 10px;
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -170,22 +170,34 @@ footer {
     src: url(./Raleway/Raleway-VariableFont_wght.ttf);
 }
 /* Div for holding the icons that link to external social media sites */
-#linkicons {
+/* #linkicons {
   width: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-}
+} */
 
 .icon {
-  width: 35%;
+  width: 60%;
+  background-color: var(--color4);
+  border-color: var(--color4);
+  border-radius: 100%;
+  border-width: 5px;
+  border-style: solid;
 
 }
 
 .icon:hover {
   cursor: pointer;
   scale: 1.1;
+}
+
+.iconcontainer {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 /* When screen is mobile sized */
