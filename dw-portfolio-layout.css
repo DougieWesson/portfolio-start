@@ -6,9 +6,9 @@ body {
 
 /* Colour Palette */
 :root {
-  --color1: rgb(165, 201, 202);
-  --color2: rgb(57, 91, 100);
-  --color3: rgb(231, 246, 242);
+  --color1: rgb(156, 176, 177);
+  --color2: rgb(65, 84, 89);
+  --color3: rgb(204, 219, 219);
   --color4: rgb(255, 238, 175);
 
 }
@@ -85,7 +85,7 @@ nav {
   height: 400px;
   margin: 15px;
   background-color: var(--color1);
-  opacity: 0.9;
+  /* opacity: 0.9; */
   box-shadow: 10px 10px 5px var(--color2); 
   border-radius: 20px;
   /* border-color: rgb(225, 255, 238);
@@ -124,7 +124,7 @@ main {
   width: 75%;
   margin: 15px;
   background-color: var(--color1);
-  opacity: 0.9;
+  /* opacity: 0.9; */
   box-shadow: 10px 10px 5px var(--color2); 
   border-radius: 20px;
   /* border-color: rgb(225, 255, 238);
@@ -157,13 +157,34 @@ p {
 footer {
     background-color: rgba(0, 0, 0, 0.60);
     border-radius: 10px;
-    margin: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     font-family: Raleway;
     src: url(./Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+#linkicons {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  width: 35%;
+
+}
+
+.icon:hover {
+  cursor: pointer;
+  scale: 1.1;
 }
 
 /* When screen is mobile sized */
