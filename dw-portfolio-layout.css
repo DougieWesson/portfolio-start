@@ -147,10 +147,10 @@ p {
 
 .headshot {
   border-radius: 100%;
-  border-width: 3px;
+  border-width: 5px;
   border-style: solid;
   border-color: var(--color3);
-  width: 80%;
+  width: 65%;
   scale: 1;
 }
 /* Footer style for the bottom of the page */
