@@ -2,6 +2,7 @@ body {
   background-image: url(./images/pexels-daniel-absi-952670.jpg);
   background-size:contain;
   background-color: rgb(127, 188, 210);
+  margin: 2px;
 }
 
 /* Colour Palette */
@@ -19,6 +20,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items:center;
+  width: 85%;
   margin: 10px;
   padding: 10px;
   /* border-color: red;
@@ -45,7 +47,7 @@ body {
 
 /* Personal Logo standards */
 img.logo {
-  height: 127px;
+  height: 125px;
   border-radius: 15px;
   border-color: var(--color1);
   border-style: solid;
@@ -72,7 +74,8 @@ h1 {
   /* border-width: 5px;
   border-style: double;
   border-color: var(--color4); */
-  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -158,10 +161,10 @@ p {
 footer {
     background-color: rgba(0, 0, 0, 0.60);
     border-radius: 10px;
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -179,7 +182,7 @@ footer {
 } */
 
 .icon {
-  width: 60%;
+  width: 70%;
   background-color: var(--color4);
   border-color: var(--color4);
   border-radius: 100%;
@@ -194,14 +197,14 @@ footer {
 }
 
 .iconcontainer {
-  width: 20%;
+  width: 25%;
   display: flex;
   justify-content: space-evenly;
   text-align: center;
 }
 
 /* When screen is mobile sized */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
   #focus {
     flex-direction: column;
@@ -212,16 +215,67 @@ footer {
 
 /* Flips nav bar into a row above main */
   nav {
-    width: 95%;
+    width: 90%;
     height: 70px;
     margin: 10px;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   main {
-    width: 95%;
+    width: 90%;
     height: fit-content;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img.logo {
+    height: 100px;
+  }
+}
+
+/* For really small screens */
+@media screen and (max-width: 360px) {
+  nav {
+    height: 150px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  footer {
+    height: 170px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  button {
+    width: 110px;
+  }
+
+  .iconcontainer {
+    width: 105px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  img.logo {
+    height: 90px;
   }
 }
