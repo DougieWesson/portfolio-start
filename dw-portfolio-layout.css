@@ -108,11 +108,11 @@ nav {
 }
 /* General button styling */
 button {
-    width: fit-content;
-    height: 45px;
+    width: 100px;
+    height: 55px;
     background-color: var(--color3);
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 18px;
     font-family: Raleway;
     src: url(./Raleway/Raleway-VariableFont_wght.ttf);
 }
@@ -223,6 +223,17 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
+  button {
+    width: 75px;
+    height: 55px;
+    background-color: var(--color3);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Raleway;
+    src: url(./Raleway/Raleway-VariableFont_wght.ttf);
+}
 
   main {
     width: 90%;
